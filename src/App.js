@@ -1,5 +1,6 @@
 import React from 'react';
 import WeatherBar from "./component/WeatherBar"
+import './App.css';
 
 function App() {
   let weathers = [
@@ -35,8 +36,9 @@ function App() {
     }
   ];
   return (
-    <div className="App">
-      <h1>holaa</h1>
+    <div className="App-header">
+        
+        <h2>CLIMA</h2>
       <WeatherBar weathers = {weathers}/>
        
     </div>

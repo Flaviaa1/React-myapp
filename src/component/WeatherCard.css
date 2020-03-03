@@ -1,0 +1,36 @@
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 4px;
+  font-size: 16px;
+  border-radius: 12px;
+  padding: 16px;
+  margin-left: 15px;
+  background-color: rgba(230, 255, 247, 0.295);
+}
+.weather-card:hover {
+  background-color: rgba(179, 191, 216, 0.1);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+  
+  
+.day {
+  color:white;
+  font-weight: bold;
+}
+
+.icon {
+  font-size: 180%;
+  margin: 8px;
+}
+
+.max {
+  padding-right: 8px;
+}
+
+.min {
+  color: white;
+}
